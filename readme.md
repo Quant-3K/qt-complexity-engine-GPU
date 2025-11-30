@@ -87,11 +87,11 @@ qt-complexity-engine-GPU/
 ├── bart_30.md                                             # QT Complexity Engine Report — bart30
 ├── am_9_9_shuffled_as.md                                  # QT Complexity Engine Report — am_9_9
 ├── alu_4_mul_miter_shuffled_as.md                         # QT Complexity Engine Report — alu4mul.miter
-├── alu4mul.miter.shuffled-as.sat03-344.zip                # Full run artifacts for alu4mul run
-├── C880mul.miter.shuffled-as.sat03-348.zip                # Full run artifacts for C880mul run
-├── bart30.shuffled.zip                                    # Full run artifacts for bart30 run
-├── am_9_9.shuffled-as.sat03-365.zip                       # Full run artifacts for am_9_9 run
-├── uuf250-090.zip                                         # Full run artifacts for uuf250-90 run
+├── alu4mul.miter.shuffled-as.sat03-344.zip                # Full run artifacts for alu4mul run and .cnf source file.
+├── C880mul.miter.shuffled-as.sat03-348.zip                # Full run artifacts for C880mul run and .cnf source file.
+├── bart30.shuffled.zip                                    # Full run artifacts for bart30 run and .cnf source file.
+├── am_9_9.shuffled-as.sat03-365.zip                       # Full run artifacts for am_9_9 run and .cnf source file.
+├── uuf250-090.zip                                         # Full run artifacts for uuf250-90 run and .cnf source file.
 ├── LICENSE
 └── README.md                                              # (this file)
 ```
