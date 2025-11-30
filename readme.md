@@ -75,64 +75,25 @@ Together these form a **complete dynamical portrait** of any computational insta
 # **2. Repository Structure**
 
 ```
-qt-complexity-engine/
+qt-complexity-engine-GPU/
 │
-├── engine/                     # Core engine implementation
-│   ├── qt_core.py              # Canonical metric definitions
-│   ├── qt_kappa.py             # Curvature computation
-│   ├── qt_entropy.py           # Entropy models
-│   ├── qt_structure.py         # Structural quality extraction
-│   ├── qt_runner.py            # Execution loop
-│   └── utils/                  # Helpers, math utilities
-│
-├── loaders/
-│   ├── sat_loader.py           # DIMACS CNF loader
-│   ├── maxcut_loader.py        # Graph loader
-│   └── generic_loader.py       # Universal interface
-│
-├── analysis/
-│   ├── qt_timeseries.py        # CSV generator
-│   ├── qt_summary.py           # JSON generator
-│   ├── qt_visuals.py           # Plotting utilities
-│   ├── qt_correlations.py      # Correlation matrices
-│   └── qt_segments.py          # Phase segmentation tools
-│
-├── benchmarks/
-│   ├── alu4mul/                # Full run artifacts
-│   ├── C880mul/
-│   ├── bart30/
-│   ├── am_9_9/
-│   ├── uuf250-090/
-│   └── README.md               # Benchmark descriptions
-│
-├── docs/
-│   ├── theory/                 # Theoretical Quant‑Trika docs
-│   │   ├── qt_foundations.md
-│   │   ├── qt_metrics.md
-│   │   └── qt_coherence_law.md
-│   ├── engine_spec/            # Engineering specifications
-│   │   ├── qt_engine_v0.1.md
-│   │   ├── qt_engine_v0.2.md
-│   │   └── qt_engine_api.md
-│   └── examples/               # Example runs
-│
-├── results/                    # Auto‑generated outputs
-│   ├── images/                 # PNG figures
-│   ├── csv/                    # Raw time‑series
-│   └── summaries/              # JSON summaries
-│
-├── colab/                      # Google Colab notebooks
-│   ├── QT_Engine_Demo.ipynb
-│   ├── QT_Benchmark_All.ipynb
-│   └── QT_Paper_Experiments.ipynb
-│
-├── scripts/
-│   ├── run_all.sh              # Batch runner
-│   ├── analyze_all.py
-│   └── export_plots.py
-│
+├── qt_complexity_engine_gpu_b_5000_notebook_analysis.md   # QT Complexity Engine v0.2 — GPU Benchmark Notebook (B=5000) methods
+├── qt_metrics_conceptual_measurement_primer.md            # Quant‑Trika Metric System — Conceptual Primer
+├── ComplexityEngineCompleteGPUB5000.ipynb                 # Fully reproduceble Google Colab Complexity Engine for GPU Notebook
+├── uuf_250_batch_appendix.md                              # Comparative Analysis of 10 QT Engine Runs uuf250‑091-uuf250‑0100
+├── UUF250Familybatch.zip                                  # Full 10 run artifacts for uuf250 family batch
+├── uuf_250_090.md                                         # QT Complexity Engine Report — uuf250-090
+├── c_880_mul_miter_shuffled_as.md                         # QT Complexity Engine Report — C880mul.miter
+├── bart_30.md                                             # QT Complexity Engine Report — bart30
+├── am_9_9_shuffled_as.md                                  # QT Complexity Engine Report — am_9_9
+├── alu_4_mul_miter_shuffled_as.md                         # QT Complexity Engine Report — alu4mul.miter
+├── alu4mul.miter.shuffled-as.sat03-344.zip                # Full run artifacts for alu4mul run
+├── C880mul.miter.shuffled-as.sat03-348.zip                # Full run artifacts for C880mul run
+├── bart30.shuffled.zip                                    # Full run artifacts for bart30 run
+├── am_9_9.shuffled-as.sat03-365.zip                       # Full run artifacts for am_9_9 run
+├── uuf250-090.zip                                         # Full run artifacts for uuf250-90 run
 ├── LICENSE
-└── README.md                   # (this file)
+└── README.md                                              # (this file)
 ```
 
 ---
