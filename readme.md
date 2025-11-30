@@ -110,43 +110,22 @@ Optional GPU modules:
 pip ins
 ```
 
-# **4. Quick Start**
 
-### **4.1 Running the Engine on a DIMACS SAT Instance**
+# **4. Quant‑Trika Metrics (Core Definitions)**
 
-```bash
-python run.py --input path/to/formula.cnf --steps 1000 --beta 5000
-```
-
-Output:
-
-- `metrics.csv`
-- `summary.json`
-- PNG plots (time‑series, histograms, scatter)
-
-### **4.2 Running All Benchmarks**
-
-```bash
-bash scripts/run_all.sh
-```
-
----
-
-# **5. Quant‑Trika Metrics (Core Definitions)**
-
-### **5.1 Structural Quality (C)**
+### **4.1 Structural Quality (C)**
 
 Quantifies coherence‑supporting structural order. Derived from clause connectivity, pattern density, and constraint alignment.
 
-### **5.2 Normalized Entropy (H\_norm)**
+### **4.2 Normalized Entropy (H\_norm)**
 
 Measures local turbulence and instability in the evolving assignment.
 
-### **5.3 Computational Curvature (kappa)**
+### **4.3 Computational Curvature (kappa)**
 
 Captures how rigid or flexible the local constraint manifold is.
 
-### **5.4 Coherence (KQ)**
+### **4.4 Coherence (KQ)**
 
 The central Quant‑Trika invariant:
 
@@ -158,7 +137,7 @@ Represents surviving structure under entropy.
 
 ---
 
-# **6. Dynamical Regimes**
+# **5. Dynamical Regimes**
 
 The engine classifies each step into one of five regimes:
 
@@ -174,7 +153,7 @@ This forms the core of the **QT dynamical atlas** for SAT/MaxCut landscapes.
 
 ---
 
-# **7. Benchmark Results (Summary)**
+# **6. Benchmark Results (Summary)**
 
 The repository includes full analyses for five canonical SAT instances:
 
@@ -198,39 +177,7 @@ Detailed comparison across all five instances is provided in `benchmarks/README.
 
 ---
 
-# **8. Theoretical Documentation**
-
-Located in `docs/theory/`:
-
-### **8.1 QT Foundations**
-
-Introduces the ontology of structure, entropy, curvature, coherence.
-
-### **8.2 Coherence Law**
-
-Formalizes the KQ equation and its geometric meaning.
-
-### **8.3 QT Metrics**
-
-Defines all invariants mathematically, including edge cases.
-
----
-
-# **9. Engineering Documentation**
-
-Found in `docs/engine_spec/`.
-
-### Includes:
-
-- full pipeline (loader → engine → analysis → export)
-- API documentation
-- implementation notes
-- reproducibility constraints
-- reference experiments
-
----
-
-# **10. Reproducibility & Data Integrity**
+# **7. Reproducibility & Data Integrity**
 
 All outputs are deterministic given:
 
@@ -244,39 +191,20 @@ The repository includes:
 - versioned CSV/JSON files
 - raw logs
 
----
-
-# **11. Contributing**
-
-Contributions are welcome. Please submit:
-
-- feature proposals
-- bug reports
-- engine accuracy improvements
-- documentation enhancements
 
 ---
 
-# **12. License**
+# **8. License**
 
-This project is released under the **MIT License**.
-
----
-
-# **13. Citation**
-
-If you use the QT Complexity Engine in research:
-
-```
-Brezgin, Artem (2025). QT Complexity Engine — A Quant‑Trika Framework for Structural, Entropic, and Curvature-Based Analysis. Spanda Foundation.
-```
+This project is released under the **Quant-Trika License V1.0**.
 
 ---
 
-# **14. Contact**
+
+# **9. Contact**
 
 For research collaboration, consulting, or academic inquiries:
 **Artem Brezgin — Spanda Foundation**
 
-Feel free to reach out via GitHub issues or email.
+Feel free to reach out via GitHub issues or email artem@quant-trika.org .
 
