@@ -98,34 +98,22 @@ qt-complexity-engine-GPU/
 
 ---
 
-#
 
-```bash
-pip install -r requirements.txt
-```
+# **3. Quant‑Trika Metrics (Core Definitions)**
 
-Optional GPU modules:
-
-```bash
-pip ins
-```
-
-
-# **4. Quant‑Trika Metrics (Core Definitions)**
-
-### **4.1 Structural Quality (C)**
+### **3.1 Structural Quality (C)**
 
 Quantifies coherence‑supporting structural order. Derived from clause connectivity, pattern density, and constraint alignment.
 
-### **4.2 Normalized Entropy (H\_norm)**
+### **3.2 Normalized Entropy (H\_norm)**
 
 Measures local turbulence and instability in the evolving assignment.
 
-### **4.3 Computational Curvature (kappa)**
+### **3.3 Computational Curvature (kappa)**
 
 Captures how rigid or flexible the local constraint manifold is.
 
-### **4.4 Coherence (KQ)**
+### **3.4 Coherence (KQ)**
 
 The central Quant‑Trika invariant:
 
@@ -137,7 +125,7 @@ Represents surviving structure under entropy.
 
 ---
 
-# **5. Dynamical Regimes**
+# **4. Dynamical Regimes**
 
 The engine classifies each step into one of five regimes:
 
@@ -153,7 +141,7 @@ This forms the core of the **QT dynamical atlas** for SAT/MaxCut landscapes.
 
 ---
 
-# **6. Benchmark Results (Summary)**
+# **5. Benchmark Results (Summary)**
 
 The repository includes full analyses for five canonical SAT instances:
 
@@ -177,7 +165,7 @@ Detailed comparison across all five instances is provided in `benchmarks/README.
 
 ---
 
-# **7. Reproducibility & Data Integrity**
+# **6. Reproducibility & Data Integrity**
 
 All outputs are deterministic given:
 
@@ -194,14 +182,14 @@ The repository includes:
 
 ---
 
-# **8. License**
+# **7. License**
 
 This project is released under the **Quant-Trika License V1.0**.
 
 ---
 
 
-# **9. Contact**
+# **8. Contact**
 
 For research collaboration, consulting, or academic inquiries:
 **Artem Brezgin — Spanda Foundation**
